@@ -1,10 +1,16 @@
 <html>
 <head>
   <title></title>
+  <link href = "styles.css" type = "text/css" rel = "stylesheet"/>
 </head>
 <body>
   <header>
-    <h1><b>Web<b/>App<sup>TM</sup></h1>
+    <h1><b>Web</b>App&trade;</h1>
+    <div></div>
+    <div>
+      <img src = "images/member-1.jpg">
+      <p>Student Name</p>
+    </div>
   </header>
   <nav>
     <ul>
@@ -17,11 +23,11 @@
       <div id = "main">
           <h1>Dashboard</h1>
             <div id = "traffic">
-              <h2>traffic</h2>
-              <a>hourly</a>
-              <a>daily</a>
-              <a>weekly</a>
-              <a>monthly</a>
+              <h2>Traffic</h2>
+              <a>Hourly</a>
+              <a>Daily</a>
+              <a>Weekly</a>
+              <a>Monthly</a>
             </div>
             <div id = "daily-traffic">
               <h2>daily traffic</h2>
@@ -65,24 +71,31 @@
               <h2>recent activity</h2>
               <div>
                 <img src = "images/member-1.jpg">
+                <p>Victoria Chambers commented on <b>WebApp's SEO tips</b></p>
+                <p>4 hours ago</p>
               </div>
               <div>
                 <img src = "images/member-2.jpg">
+                <p>Dale Byrd liked the post <b>Facebook's changes for 2021</b></p>
+                <p>5 hours ago</p>
               </div>
               <div>
                 <img src = "images/member-3.jpg">
+                <p>Dawn Wood commented on <b>Facebook's changes for 2021</b></p>
+                <p>5 hours ago</p>
               </div>
               <div>
                 <img src = "images/member-4.jpg">
+                <p>Dan Oliver posted <b>WebApp's SEO tips</b></p>
+                <p>1 day ago</p>
               </div>
             </div>
             <div id = "message-user">
               <h2>message user</h2>
               <form>
                 <input type = "text" name = "user" placeholder="Search for User"/>
-                <!-- make dropdown? -->
                 <textarea name = "message">Message for User</textarea>
-                <button>Send</button>
+                <button id = "send">Send</button>
               </form>
             </div>
             <div id = "settings">
@@ -91,8 +104,8 @@
               <p>Set Profile to Public</p>
               <form>
                 <select name = "timezone" placeholder = "Select Timezone"></select>
-                <button>Save</button>
-                <button>Cancel</button>
+                <button id = "save">Save</button>
+                <button id = "cancel">Cancel</button>
             </form>
             </div>
         </div>
