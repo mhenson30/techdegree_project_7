@@ -5,19 +5,37 @@
 </head>
 <body>
   <header>
-    <h1><b>Web</b>App&trade;</h1>
-    <div></div>
+    <p id = "page-title"><b>Web</b>App&trade;</p>
     <div>
+      <img src = "svgs/bell.svg">
+    </div>
+    <div id = "profile">
       <img src = "images/member-1.jpg">
       <p>Student Name</p>
     </div>
   </header>
   <nav>
     <ul>
-      <li id = "home"></li>
-      <li id = "traffic"></li>
-      <li id = "users"></li>
-      <li id = "settings"></li>
+      <li id = "home">
+        <a>
+          <img src = "svgs/home.svg">
+        </a>
+      </li>
+      <li id = "traffic">
+        <a>
+          <img src = "svgs/bar-chart.svg">
+        </a>
+      </li>
+      <li id = "users">
+        <a>
+          <img src = "svgs/members.svg">
+        </a>
+      </li>
+      <li id = "settings">
+        <a>
+          <img src = "svgs/settings.svg">
+        </a>
+      </li>
     </ul>
   </nav>
       <div id = "main">
@@ -37,8 +55,21 @@
             </div>
             <div id = "social-stats">
               <h2>social stats</h2>
-                <div id = "fb"></div>
-                <div id = "twitter"></div>
+                <div id = "fb" class = "widget">
+                  <img src = "svgs/facebook.svg">
+                  <p>Facebook</p>
+                  <p>10,320</p>
+                </div>
+                <div id = "instagram" class = "widget">
+                  <img src = "svgs/instagram.svg">
+                  <p>Instagram</p>
+                  <p>16,445</p>
+                </div>
+                <div id = "twitter" class = "widget">
+                  <img src = "svgs/twitter.svg">
+                  <p>Twitter</p>
+                  <p>22,189</p>
+                </div>
             </div>
             <div id = "new-members">
               <h2>new members</h2>
@@ -69,22 +100,22 @@
             </div>
             <div id = "recent-activity">
               <h2>recent activity</h2>
-              <div>
+              <div class = "member">
                 <img src = "images/member-1.jpg">
                 <p>Victoria Chambers commented on <b>WebApp's SEO tips</b></p>
                 <p>4 hours ago</p>
               </div>
-              <div>
+              <div class = "member">
                 <img src = "images/member-2.jpg">
                 <p>Dale Byrd liked the post <b>Facebook's changes for 2021</b></p>
                 <p>5 hours ago</p>
               </div>
-              <div>
+              <div class = "member">
                 <img src = "images/member-3.jpg">
                 <p>Dawn Wood commented on <b>Facebook's changes for 2021</b></p>
                 <p>5 hours ago</p>
               </div>
-              <div>
+              <div class = "member">
                 <img src = "images/member-4.jpg">
                 <p>Dan Oliver posted <b>WebApp's SEO tips</b></p>
                 <p>1 day ago</p>
